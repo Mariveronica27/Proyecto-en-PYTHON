@@ -60,13 +60,13 @@ if __name__ == "__main__":
         contador = 1
         mensaje_solicitud ="Ingrese la Data"
 
-        Data_string = int(input("{} {}:".format(mensaje_solicitud, contador)))
+        Data_string = int(input("{} {}: ".format(mensaje_solicitud, contador)))
 
     
         while Data_string != "*":
             contador += 1
             numeros.append(int(Data_string))
-            Data_string = input("{} {}:".format(mensaje_solicitud, contador))
+            Data_string = input("{} {}: ".format(mensaje_solicitud, contador))
 
    
         if contador < 21:
