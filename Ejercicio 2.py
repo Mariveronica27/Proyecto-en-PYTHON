@@ -57,9 +57,10 @@ if __name__ == "__main__":
     Data_string = int(input("{} {}:".format(mensaje_solicitud, contador)))
 
     while Data_string != "*":
+        contador += 1
         numeros.append(int(Data_string))
         Data_string = input("{} {}:".format(mensaje_solicitud, contador))
-        contador += 1
+        
         
 
     print("\n")
