@@ -1,8 +1,8 @@
 print("=====================================================")
 print("Ingrese los valores de ancho y largo de la BANDERA")
 print("=====================================================")
-
-
+print("        Ingrese valores impares entre 3 y 19         ")
+print("=====================================================")
 
 
 Bandera= True
