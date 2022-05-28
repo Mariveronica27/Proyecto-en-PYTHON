@@ -72,7 +72,8 @@ if __name__ == "__main__":
         if contador < 21:
             print("\n")
             print("Debe ingresar 20 valores o mas")
-            print("==============================")  
+            print("==============================")
+            print("\n")
             Bandera = True    
         else:
             print("\n")
