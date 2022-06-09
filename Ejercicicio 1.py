@@ -111,9 +111,6 @@ while numero_de_la_lista < len(Lista_de_tuples):
         numero_de_la_lista += 1
     break
 
-
-numero = 0
-
 print('')
 
 lista_de_promedios = calcular_Lista_de_variaciones(Lista_de_tuples)
