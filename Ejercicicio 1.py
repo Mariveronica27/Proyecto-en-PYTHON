@@ -16,7 +16,7 @@ def group_elements(lst, chunk_size):
 def calcular_Lista_de_variaciones(valores):
     Lista_de_variaciones = []
     for valor in valores:
-        if 0<=valor[1]<=50 and 0<=valor[0]<=50:    
+        if (0<=valor[1]<=50) and (0<=valor[0]<=50):    
             Lista_de_variaciones.append(valor[1]-valor[0])
     return  Lista_de_variaciones
 
